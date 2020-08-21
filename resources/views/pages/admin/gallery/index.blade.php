@@ -55,6 +55,9 @@
           </thead>
         </table>
       </div>
+      <div class="d-flex justify-content-center">
+        {{$items->links()}}
+      </div>
     </div>
   </div>
 
